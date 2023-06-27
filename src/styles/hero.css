@@ -1,0 +1,227 @@
+
+
+.hero__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.hero__content .section__title{
+    font-size: 3rem;
+    padding-right: 60px;
+    line-height: 60px;
+    border-left: 10px solid rgb(158, 4, 4);
+    padding-left: 4%;
+    border-radius: 20% 4%;
+    margin-bottom: 20px;
+}
+.highlights{
+   background:  linear-gradient(to right, #3b0000,#7c0202,#ff0000 ); /* Replace with your desired gradient colors */
+  -webkit-background-clip: text; /* For Safari */
+  -webkit-text-fill-color: transparent; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  font-size: 3.4rem;
+}
+
+.hero__content p{
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.hero__btns {
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    cursor: pointer;
+}
+.watch__btn{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--heading-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.watch__btn span{
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    color: rgb(158, 4, 4);
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 8px -1px #d3cef2;
+}
+.watch__btn span:hover{
+    color: #ff0000;
+}
+
+.box-01{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border: 25px solid #3b0000;
+    transition: all ease 2.3s;
+}
+.box-01:hover{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border: 25px solid #ff0000;
+    
+}
+
+.box-02{
+    width: 453px;
+    height: 453px;
+    border-radius: 100%;
+    border: 25px solid #7c0202;
+    transition: all ease 3.0s;
+}
+.box-02:hover{
+    width: 453px;
+    height: 453px;
+    border-radius: 100%;
+    border: 25px solid #3b0000;
+    
+}
+
+.box-03{
+    width: 405px;
+    height: 405px;
+    border-radius: 100%;
+    border: 25px solid #ff0000;
+    transition: all ease 3.5s;
+}
+.box-03:hover{
+    width: 405px;
+    height: 405px;
+    border-radius: 100%;
+    border: 25px solid #7c0202;
+    
+}
+
+.hero__img-wrapper{
+    position: relative;
+    z-index: 1;
+}
+.box__img{
+    position: absolute;
+    top: -7%;
+    left: -13%;
+    z-index: 10;
+}
+.box__img img{
+    width: 123%;
+    border-radius: 40%;
+    padding-left: 5%;
+    
+}
+
+.heart__rate{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    z-index: 10;
+    box-shadow: -3px 3px 8px -1px #d3cef2;
+    text-align: center;
+    background: #c0c0c0;
+    border-radius: 5px;
+    padding: 15px 10px;
+    transition: all ease 1.1s;
+}
+.heart__rate:hover{
+    background: #fff;
+}
+.heart__rate span{
+    width: 30px;
+    height: 25px;
+    margin: auto;display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d3cef2;
+    color: #7c0202;
+    border-radius: 3px;
+    padding: 3px;
+}
+.heart__rate span:hover{
+    color: #ff0000;
+}
+
+.heart__rate h5, h6{
+    font-size: .8rem;
+    color: var(--heading-color);
+    font-weight: 600;
+}
+.heart__rate h5{
+    margin-bottom: 10px;
+
+}
+.heart__rate h6{
+    margin-top: 10px;
+}
+.gym_location{
+    position: absolute;
+    top: 18%;
+    left: 75%;
+    z-index: 10;
+    box-shadow: -3px 3px 8px -1px #d3cef2;
+    text-align: center;
+    background: #838282;
+    border-radius: 5px;
+    padding: 28px 10px;
+    transition: all ease 1.1s;
+}
+.gym_location:hover{
+    background: #fff;
+}
+.gym_location span{
+    width: 50px;
+    height: 50px;
+    margin: auto;display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d3cef2;
+    color: #7c0202;
+    border-radius: 3px;
+    padding: 3px;
+}
+.gym_location span:hover{
+    color: #001aff;
+}
+.gym_location h5{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.dumble__icon{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background: var(--primary-color);
+    color: #fff;
+    transition: all ease 1.1s;
+    border-bottom: 3px solid #7c0202;
+    transform: rotate(45deg);
+    
+}
+.dumble__icon:hover{
+    background: linear-gradient(to right, #3b0000,#7c0202,#ff0000 )
+    
+}
+.dumble__icon img{
+    width: 100px;
+    height: 100px;
+}

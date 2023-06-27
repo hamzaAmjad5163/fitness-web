@@ -1,0 +1,43 @@
+
+
+.footer{
+    padding: 50px 0px;
+    background: #ff2323;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+.footer__box{
+    width: 30%;
+}
+
+.footer__box p{
+    line-height: 28px;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer__title{
+    
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+.footer__links li{
+    line-height: 28px;
+    
+}
+.footer__links li a{
+    color: white;
+    cursor: pointer;
+}
+.footer__links li a:hover{
+    color: rgb(0, 0, 0);
+}
+.CopyRight{
+    margin-top: 50px;
+    color: white;
+}
